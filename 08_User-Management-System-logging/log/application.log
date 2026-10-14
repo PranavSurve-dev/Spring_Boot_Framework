@@ -1,0 +1,113 @@
+2026-10-14T17:53:35.796+05:30  INFO 1560 --- [08_User_Management_System] [restartedMain] c.s._.Application                        : Starting Application using Java 21.0.10 with PID 1560 (D:\Spring_Boot_Framework\08_User_Management_System\target\classes started by Pranav in D:\Spring_Boot_Framework\08_User_Management_System)
+2026-10-14T17:53:35.796+05:30  INFO 1560 --- [08_User_Management_System] [restartedMain] c.s._.Application                        : No active profile set, falling back to 1 default profile: "default"
+2026-10-14T17:53:35.916+05:30  INFO 1560 --- [08_User_Management_System] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-14T17:53:35.932+05:30  INFO 1560 --- [08_User_Management_System] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 1 JPA repository interface.
+2026-10-14T17:53:36.002+05:30  INFO 1560 --- [08_User_Management_System] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-14T17:53:36.003+05:30  INFO 1560 --- [08_User_Management_System] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-14T17:53:36.003+05:30  INFO 1560 --- [08_User_Management_System] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-14T17:53:36.025+05:30  INFO 1560 --- [08_User_Management_System] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 227 ms
+2026-10-14T17:53:36.046+05:30  INFO 1560 --- [08_User_Management_System] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-10-14T17:53:36.068+05:30  INFO 1560 --- [08_User_Management_System] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-14T17:53:36.069+05:30  INFO 1560 --- [08_User_Management_System] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2026-10-14T17:53:36.132+05:30  INFO 1560 --- [08_User_Management_System] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Added connection org.postgresql.jdbc.PgConnection@575811f3
+2026-10-14T17:53:36.132+05:30  INFO 1560 --- [08_User_Management_System] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2026-10-14T17:53:36.141+05:30  WARN 1560 --- [08_User_Management_System] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-10-14T17:53:36.150+05:30  INFO 1560 --- [08_User_Management_System] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/springboot]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 18.4
+	Default catalog/schema: springboot/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-14T17:53:36.199+05:30  INFO 1560 --- [08_User_Management_System] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-14T17:53:36.221+05:30  INFO 1560 --- [08_User_Management_System] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-14T17:53:36.279+05:30  WARN 1560 --- [08_User_Management_System] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-10-14T17:53:36.336+05:30  INFO 1560 --- [08_User_Management_System] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-14T17:53:36.338+05:30  INFO 1560 --- [08_User_Management_System] [restartedMain] c.s._.Application                        : Started Application in 0.595 seconds (process running for 1079.804)
+2026-10-14T17:53:36.339+05:30  INFO 1560 --- [08_User_Management_System] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-14T17:54:34.837+05:30  INFO 1560 --- [08_User_Management_System] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2026-10-14T17:54:34.839+05:30  INFO 1560 --- [08_User_Management_System] [Thread-21] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-14T17:54:34.858+05:30  INFO 1560 --- [08_User_Management_System] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-14T17:54:34.860+05:30  INFO 1560 --- [08_User_Management_System] [Thread-21] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-10-14T17:54:34.861+05:30  INFO 1560 --- [08_User_Management_System] [Thread-21] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2026-10-14T17:54:34.867+05:30  INFO 1560 --- [08_User_Management_System] [Thread-21] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2026-10-14T17:54:34.987+05:30  INFO 1560 --- [08_User_Management_System] [restartedMain] c.s._.Application                        : Starting Application using Java 21.0.10 with PID 1560 (D:\Spring_Boot_Framework\08_User_Management_System\target\classes started by Pranav in D:\Spring_Boot_Framework\08_User_Management_System)
+2026-10-14T17:54:34.988+05:30  INFO 1560 --- [08_User_Management_System] [restartedMain] c.s._.Application                        : No active profile set, falling back to 1 default profile: "default"
+2026-10-14T17:54:35.136+05:30  INFO 1560 --- [08_User_Management_System] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-14T17:54:35.151+05:30  INFO 1560 --- [08_User_Management_System] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interface.
+2026-10-14T17:54:35.238+05:30  INFO 1560 --- [08_User_Management_System] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-14T17:54:35.240+05:30  INFO 1560 --- [08_User_Management_System] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-14T17:54:35.243+05:30  INFO 1560 --- [08_User_Management_System] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-14T17:54:35.284+05:30  INFO 1560 --- [08_User_Management_System] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 292 ms
+2026-10-14T17:54:35.309+05:30  INFO 1560 --- [08_User_Management_System] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-10-14T17:54:35.343+05:30  INFO 1560 --- [08_User_Management_System] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-14T17:54:35.345+05:30  INFO 1560 --- [08_User_Management_System] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2026-10-14T17:54:35.421+05:30  INFO 1560 --- [08_User_Management_System] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-7 - Added connection org.postgresql.jdbc.PgConnection@587cb2fa
+2026-10-14T17:54:35.422+05:30  INFO 1560 --- [08_User_Management_System] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2026-10-14T17:54:35.432+05:30  WARN 1560 --- [08_User_Management_System] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-10-14T17:54:35.444+05:30  INFO 1560 --- [08_User_Management_System] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/springboot]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 18.4
+	Default catalog/schema: springboot/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-14T17:54:35.527+05:30  INFO 1560 --- [08_User_Management_System] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-14T17:54:35.559+05:30  INFO 1560 --- [08_User_Management_System] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-14T17:54:35.601+05:30  WARN 1560 --- [08_User_Management_System] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-10-14T17:54:35.722+05:30  INFO 1560 --- [08_User_Management_System] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-14T17:54:35.725+05:30  INFO 1560 --- [08_User_Management_System] [restartedMain] c.s._.Application                        : Started Application in 0.767 seconds (process running for 1139.191)
+2026-10-14T17:54:35.727+05:30  INFO 1560 --- [08_User_Management_System] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-14T17:54:37.537+05:30  INFO 1560 --- [08_User_Management_System] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 15 class path changes (0 additions, 1 deletion, 14 modifications)
+2026-10-14T17:54:37.539+05:30  INFO 1560 --- [08_User_Management_System] [Thread-25] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-14T17:54:37.554+05:30  INFO 1560 --- [08_User_Management_System] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-14T17:54:37.558+05:30  INFO 1560 --- [08_User_Management_System] [Thread-25] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-10-14T17:54:37.559+05:30  INFO 1560 --- [08_User_Management_System] [Thread-25] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
+2026-10-14T17:54:37.562+05:30  INFO 1560 --- [08_User_Management_System] [Thread-25] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
+2026-10-14T17:54:37.658+05:30  INFO 1560 --- [08_User_Management_System] [restartedMain] c.s._.Application                        : Starting Application using Java 21.0.10 with PID 1560 (D:\Spring_Boot_Framework\08_User_Management_System\target\classes started by Pranav in D:\Spring_Boot_Framework\08_User_Management_System)
+2026-10-14T17:54:37.659+05:30  INFO 1560 --- [08_User_Management_System] [restartedMain] c.s._.Application                        : No active profile set, falling back to 1 default profile: "default"
+2026-10-14T17:54:37.780+05:30  INFO 1560 --- [08_User_Management_System] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-14T17:54:37.793+05:30  INFO 1560 --- [08_User_Management_System] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interface.
+2026-10-14T17:54:37.871+05:30  INFO 1560 --- [08_User_Management_System] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-14T17:54:37.872+05:30  INFO 1560 --- [08_User_Management_System] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-14T17:54:37.872+05:30  INFO 1560 --- [08_User_Management_System] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-14T17:54:37.898+05:30  INFO 1560 --- [08_User_Management_System] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 238 ms
+2026-10-14T17:54:37.925+05:30  INFO 1560 --- [08_User_Management_System] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-10-14T17:54:37.958+05:30  INFO 1560 --- [08_User_Management_System] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-14T17:54:37.959+05:30  INFO 1560 --- [08_User_Management_System] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
+2026-10-14T17:54:38.023+05:30  INFO 1560 --- [08_User_Management_System] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-8 - Added connection org.postgresql.jdbc.PgConnection@658709f8
+2026-10-14T17:54:38.024+05:30  INFO 1560 --- [08_User_Management_System] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
+2026-10-14T17:54:38.036+05:30  WARN 1560 --- [08_User_Management_System] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-10-14T17:54:38.046+05:30  INFO 1560 --- [08_User_Management_System] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/springboot]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 18.4
+	Default catalog/schema: springboot/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-14T17:54:38.106+05:30  INFO 1560 --- [08_User_Management_System] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-14T17:54:38.129+05:30  INFO 1560 --- [08_User_Management_System] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-14T17:54:38.170+05:30  WARN 1560 --- [08_User_Management_System] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-10-14T17:54:38.228+05:30  INFO 1560 --- [08_User_Management_System] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-14T17:54:38.229+05:30  INFO 1560 --- [08_User_Management_System] [restartedMain] c.s._.Application                        : Started Application in 0.59 seconds (process running for 1141.694)
+2026-10-14T17:54:38.231+05:30  INFO 1560 --- [08_User_Management_System] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-14T17:56:11.882+05:30  INFO 1560 --- [08_User_Management_System] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-14T17:56:11.883+05:30  INFO 1560 --- [08_User_Management_System] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-10-14T17:56:11.885+05:30  INFO 1560 --- [08_User_Management_System] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-10-14T17:56:11.891+05:30  INFO 1560 --- [08_User_Management_System] [http-nio-8080-exec-1] c.s._.service.UserService                : User is deleted with id:2
+2026-10-14T17:58:15.757+05:30  WARN 1560 --- [08_User_Management_System] [HikariPool-8:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-8 - Thread starvation or clock leap detected (housekeeper delta=2m7s606ms167µs900ns).
