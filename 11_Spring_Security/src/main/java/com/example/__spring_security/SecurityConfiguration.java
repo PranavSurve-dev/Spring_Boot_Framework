@@ -25,26 +25,7 @@ public class SecurityConfiguration {
 		// .formLogin(form->form.permitAll()); // Enable form login if needed
 
 		return http.build();
-	}
-
-//	@Bean
-//	public AuthenticationProvider authenticationProvider() {
-//		PasswordEncoder passwordEncoder,
-//		CustomUserDetailsService userDetailsService{
-//			DaoAuthenticationProvider dao = DaoAuthenticationProvider(userDetailsService);
-//			dao.setPasswordEncoder(passwordEncoder);
-//			return dao;
-//		}
-//		
-//		@Bean
-//		public AuthenticationManager authenticationManager(AuthenticationConfiguration configuration) {
-//			return configuration.getAuthenticationManager();
-//		}
-//		@Bean
-//		public passwordEncoder passwordEncoder() {
-//			return new BCryptPasswordEncoder();
-//					
-//		
+	}		
 
 	@Bean
 	public AuthenticationProvider authenticationProvider(PasswordEncoder passwordEncoder,
